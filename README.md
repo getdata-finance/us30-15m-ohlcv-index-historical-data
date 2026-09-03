@@ -1,10 +1,10 @@
-# US30 15m OHLCV Stock index Historical Data — Free Sample
+# US30 15m OHLCV Index Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-407_434_rows-blue)](https://getdata.finance/datasets/us30) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/us30)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-409_472_rows-blue)](https://getdata.finance/datasets/us30) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/us30)
 
 ### -> [**Download the full US30 dataset on getdata.finance**](https://getdata.finance/datasets/us30)
 
-**US30 15m OHLCV stock index historical data** — ultra high-quality 15m OHLCV for **Dow Jones 30**. Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only. Clean `datetime, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
+**US30 15m OHLCV index historical data** — ultra high-quality 15m OHLCV for **Dow Jones 30**. Clean `datetime, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
 
 ## Table of contents
 
@@ -21,14 +21,13 @@
 
 ## Why this dataset?
 
-- **Ultra high-quality 15m OHLCV** for **Dow Jones 30** (Stock index)
-- **Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only**
+- **Ultra high-quality 15m OHLCV** for **Dow Jones 30** (Index)
 - **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`15m`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/us30) · **407,434** `1m` rows in the full archive
+- **Free evaluation sample** on GitHub (`15m`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/us30) · **409,472** `15m` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `15m` sample updated in sync
 
-> **Sample on GitHub** · `US30_15m.csv` (11,983 rows, `2026-01-29` -> `2026-07-31`). **Full archive on [getdata.finance](https://getdata.finance/datasets/us30)** — **407,434** `1m` rows (~26.06 MB), **11 timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W), `2009-03-11` -> `2026-07-31`.
+> **Sample on GitHub** · `US30_15m.csv` (3,697 rows, `2026-07-07` -> `2026-09-02`, 278.20 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/us30)** — **409,472** `15m` rows (full `1m`: 6,024,308), **11 timeframes**, `2009-03-11` -> `2026-09-02`.
 
 ## Download sample
 
@@ -44,11 +43,11 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 
 | | **Sample (this repo)** | **Full dataset ([getdata.finance](https://getdata.finance/datasets/us30))** |
 |---|--:|---|
-| Instrument | Dow Jones 30 · Stock index | Dow Jones 30 · Stock index |
+| Instrument | Dow Jones 30 · Index | Dow Jones 30 · Index |
 | Timeframes | `15m` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 1m rows | 11,983 | **407,434** |
-| Size | 0.89 MB | ~26.06 MB |
-| Period | `2026-01-29` -> `2026-07-31` | `2009-03-11` -> `2026-07-31` |
+| 15m rows | 3,697 | **409,472** |
+| Size | 278.20 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/us30) |
+| Period | `2026-07-07` -> `2026-09-02` | `2009-03-11` -> `2026-09-02` |
 | File | `US30_15m.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/us30) |
 | Coverage report | — | [US30 coverage](https://getdata.finance/coverage/us30) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -57,7 +56,7 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 
 This GitHub repository ships a **`15m` evaluation sample** only. On **[getdata.finance](https://getdata.finance/datasets/us30)**, each full asset archive is delivered as a ZIP with **11 gap-free OHLCV timeframes** (one CSV per timeframe):
 
-**1m** · **3m** · **5m** · **15m** · **30m** · **1H** · **4H** · **12H** · **1D** · **3D** · **1W**
+**1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W**
 
 GitHub = `15m` sample · [getdata.finance](https://getdata.finance/datasets/us30) = all **11** timeframes above for the same instrument.
 
@@ -76,21 +75,21 @@ First and latest rows from the GitHub sample **`US30_15m.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-01-29T21:45:00+00:00 | 49006.76 | 49016.76 | 48989.26 | 48994.9 | 2680 |
-| 2026-01-29T23:00:00+00:00 | 48994.9 | 49018.64 | 48922.14 | 48926.14 | 2971 |
-| 2026-01-29T23:15:00+00:00 | 48926.14 | 48978.64 | 48864.14 | 48955.14 | 2752 |
-| 2026-01-29T23:30:00+00:00 | 48955.14 | 49011.14 | 48953.14 | 49003.64 | 2866 |
-| 2026-01-29T23:45:00+00:00 | 49003.64 | 49010.64 | 48976.64 | 48985.14 | 2026 |
+| 2026-07-07T19:00:00+00:00 | 53013.56 | 53023.06 | 52949.06 | 52963.06 | 9512 |
+| 2026-07-07T19:15:00+00:00 | 52963.06 | 53016.06 | 52937.56 | 52961.06 | 10185 |
+| 2026-07-07T19:30:00+00:00 | 52961.06 | 52985.06 | 52941.06 | 52971.06 | 7848 |
+| 2026-07-07T19:45:00+00:00 | 52971.06 | 53078.56 | 52971.06 | 53022.06 | 10494 |
+| 2026-07-07T20:00:00+00:00 | 53022.06 | 53025.21 | 52965.21 | 52985.71 | 3908 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-07-31T19:30:00+00:00 | 52588.58 | 52643.58 | 52549.58 | 52642.58 | 7422 |
-| 2026-07-31T19:45:00+00:00 | 52642.58 | 52656.08 | 52501.58 | 52515.08 | 10761 |
-| 2026-07-31T20:00:00+00:00 | 52515.08 | 52570.23 | 52515.08 | 52556.73 | 4988 |
-| 2026-07-31T20:15:00+00:00 | 52556.73 | 52556.73 | 52521.32 | 52528.82 | 1489 |
-| 2026-07-31T20:30:00+00:00 | 52528.82 | 52528.82 | 52505.82 | 52507.57 | 1342 |
+| 2026-09-02T01:00:00+00:00 | 52742.54 | 52754.04 | 52718.04 | 52727.04 | 1745 |
+| 2026-09-02T01:15:00+00:00 | 52727.04 | 52752.04 | 52725.04 | 52742.54 | 1465 |
+| 2026-09-02T01:30:00+00:00 | 52742.54 | 52749.04 | 52730.54 | 52733.04 | 1622 |
+| 2026-09-02T01:45:00+00:00 | 52733.04 | 52741.04 | 52715.54 | 52740.04 | 1838 |
+| 2026-09-02T02:00:00+00:00 | 52740.04 | 52744.04 | 52739.04 | 52744.04 | 25 |
 
 ## Schema
 
@@ -117,8 +116,6 @@ import pandas as pd
 df = pd.read_csv('US30_15m.csv', parse_dates=['datetime'])
 df.set_index('datetime', inplace=True)
 print(df.describe())
-print(df.resample('1h').agg({'open': 'first', 'high': 'max',
-                              'low': 'min', 'close': 'last', 'volume': 'sum'}).head())
 ```
 
 ### backtrader
@@ -151,15 +148,15 @@ close = df.set_index('datetime')['close']
 fast, slow = vbt.MA.run(close, 10), vbt.MA.run(close, 50)
 entries = fast.ma_crossed_above(slow)
 exits = fast.ma_crossed_below(slow)
-pf = vbt.Portfolio.from_signals(close, entries, exits, init_cash=10_000, freq='1min')
+pf = vbt.Portfolio.from_signals(close, entries, exits, init_cash=10_000, freq='15min')
 print(pf.stats())
 ```
 
 ## Download full data
 
-The complete **US30** archive on **[getdata.finance](https://getdata.finance/datasets/us30)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **407,434** rows at `1m`, plus all other timeframes in the same ZIP.
+The complete **US30** archive on **[getdata.finance](https://getdata.finance/datasets/us30)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **409,472** rows at `15m`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full US30 dataset on getdata.finance](https://getdata.finance/datasets/us30)**
 
 ---
-*GetData · US30 15m OHLCV sample on GitHub · Full historical data on [getdata.finance](https://getdata.finance/datasets/us30) · 2026-08-05 UTC*
+*GetData · US30 15m OHLCV sample on GitHub · Full historical data on [getdata.finance](https://getdata.finance/datasets/us30)*
